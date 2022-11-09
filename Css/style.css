@@ -503,7 +503,7 @@ header nav ul li a:hover {
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
-        url("../assets/fotos/productos.jpg");
+        url("../Assets/fotos/productos.jpg");
     background-size: cover;
     background-position: center center;
 
@@ -861,7 +861,7 @@ header nav ul li a:hover {
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)),
-            url("../assets/fotos/productos.jpg");
+            url("../Assets/fotos/productos.jpg");
         background-size: cover;
         background-position: center center;
 
