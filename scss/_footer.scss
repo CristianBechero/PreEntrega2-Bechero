@@ -1,0 +1,34 @@
+#footer a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#footer nav a:hover {
+    color: #415a77;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#footer .container h2 {
+    text-align: center;
+}
+
+
+#footer .letras {
+    background-color: #e0e1dd;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer hr {
+    height: 5px;
+    background-color: #415a77;
+}

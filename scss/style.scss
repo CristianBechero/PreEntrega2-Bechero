@@ -1,4 +1,7 @@
-* {
+
+@import "variables";
+
+*{
     box-sizing: border-box;
 }
 
@@ -8,15 +11,15 @@ body {
 }
 
 h1 {
-    font-size: 3.0em;
+    font-size: 2.8em;
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 button {
@@ -26,7 +29,7 @@ button {
     border-radius: 8px;
     box-shadow: 1px 1px 8px;
     color: white;
-    background-color: #415a77;
+    background-color: $color-primario;
     border-color: white;
 }
 
@@ -44,7 +47,7 @@ button:hover {
 }
 
 header {
-    background-color: #e0e1dd;
+    background-color: $color-secundario;
 }
 
 header .logo {
@@ -82,7 +85,7 @@ header a {
 }
 
 header nav ul li a:hover {
-    color: #415a77;
+    color: $color-primario;
     text-decoration: none;
 
 }
@@ -118,8 +121,6 @@ header nav ul li a:hover {
     border-radius: 15px;
     align-items: center;
     box-shadow: 0 5px 10px #0d1b2a;
-
-
 }
 
 #entregas-inmediatas h2 {
@@ -141,7 +142,6 @@ header nav ul li a:hover {
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url("../Assets/fotos/cisterna.png");
-
 
 }
 
@@ -238,276 +238,27 @@ header nav ul li a:hover {
 }
 
 /* nuestra empresa */
-#nuestraempresa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 100vh;
-    color: white;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../Assets/fotos/contacto.png");
-    background-size: cover;
-    background-position: center center;
-}
+@import "nuestraempresa";
 
-#nuestra-empresa .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+// contacto
 
-#nuestra-empresa .texto {
-    margin-top: 80px;
-    text-align: initial;
-    width: 50%;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-    border: 2px solid #415a77;
-    border-radius: 5px;
-    margin-bottom: 25px;
-}
-
-#contacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 100vh;
-    color: white;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../Assets/fotos/contacto2.png");
-    background-size: cover;
-    background-position: center center;
-}
-
-#contacto .contacto {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-#contacto .formulario-contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#contacto .comentario {
-    flex-direction: column;
-    display: flex;
-    width: 100%;
-}
-
-.formulario-contacto input {
-    height: 1cm;
-    width: 7cm;
-    margin: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
-}
-
-.comentario input {
-    height: 3cm;
-    margin-top: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
-}
-
-.comentario button {
-    padding: 7px;
-    margin-top: 5px;
-}
+@import "contacto";
 
 /* registrarme */
-#registrarme {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 110vh;
-    color: white;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../Assets/fotos/ingresar.png");
-    background-size: cover;
-    background-position: center center;
-}
 
-#registrarme .registrarme {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-}
-
-#registrarme .formulario-registrarme {
-    display: flex;
-    flex-direction: column;
-}
-
-#registrarme .formulario-registrarme input {
-    width: 10cm;
-    height: 1cm;
-    margin-top: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
-    justify-content: center;
-}
-
-#registrarme .registrar button {
-    padding: 10px 90px;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-.registrar nav a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    background-color: rgb(124, 116, 116);
-    border-radius: 3px;
-}
-
-.registrar nav a:hover {
-    color: white;
-}
-
-#registrarme .registrarme {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-}
+@import "registrarme";
 
 /* ingresar */
-#ingresar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 100vh;
-    color: white;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../Assets/fotos/ingresar2.png");
-    background-size: cover;
-    background-position: center center;
-}
 
-#ingresar .formulario-ingresar {
-    display: flex;
-    flex-direction: column;
-}
-
-#ingresar .formulario-ingresar input {
-    width: 10cm;
-    height: 1cm;
-    margin-top: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
-}
-
-
-.ingresar nav a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    background-color: rgb(124, 116, 116);
-    border-radius: 3px;
-}
-
-.ingresar nav a:hover {
-    color: white;
-
-}
+@import "ingresar";
 
 /* footer */
 
-#footer a {
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-}
+@import "footer";
 
-#footer nav a:hover {
-    color: #415a77;
-}
+// productos
 
-.footer-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#footer .container h2 {
-    text-align: center;
-}
-
-
-#footer .letras {
-    background-color: #e0e1dd;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-#footer hr {
-    height: 5px;
-    background-color: #415a77;
-}
-
-#galeria img {
-    width: 100%;
-    height: 350px;
-    border-radius: 5px;
-    box-shadow: 2px 7px 12px #0d1b2a;
-    overflow: hidden;
-}
-
-#galeria .col-lg-4 {
-    margin: 0;
-    padding: 7px;
-}
-
-#galeria img:hover {
-    transform: scale(1.03);
-    filter: opacity(.8);
-}
-
-#productos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 100vh;
-    color: white;
-    background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)),
-        url("../assets/fotos/productos.jpg");
-    background-size: cover;
-    background-position: center center;
-
-}
+@import "productos";
 
 /* RESPONSIVO */
 
@@ -524,7 +275,7 @@ header nav ul li a:hover {
     }
 
     header nav ul li a:hover {
-        color: #415a77;
+        color: $color-primario;
     }
 
     header nav ul li {
@@ -588,6 +339,8 @@ header nav ul li a:hover {
         margin-top: -20px;
     }
 
+    // nuestra empresa
+
     #entregas-inmediatas h3 {
         margin-top: -20px;
     }
@@ -621,7 +374,7 @@ header nav ul li a:hover {
         align-items: center;
         flex-direction: column;
         padding: 10px;
-        border: 2px solid #415a77;
+        border: 2px solid $color-primario;
         border-radius: 5px;
         margin-bottom: 25px;
     }
@@ -640,6 +393,8 @@ header nav ul li a:hover {
         margin-bottom: 30px;
         border-radius: 10px;
     }
+
+    // contacto
 
     #contacto {
         display: flex;
@@ -679,7 +434,7 @@ header nav ul li a:hover {
         height: 1cm;
         width: 7cm;
         margin: 10px;
-        background-color: #e0e1dd;
+        background-color: $color-secundario;
         border-radius: 5px;
     }
 
@@ -687,7 +442,7 @@ header nav ul li a:hover {
         width: 20cm;
         height: 3cm;
         margin-top: 10px;
-        background-color: #e0e1dd;
+        background-color: $color-secundario;
         border-radius: 5px;
     }
 
@@ -695,6 +450,8 @@ header nav ul li a:hover {
         padding: 7px;
         margin-top: 5px;
     }
+
+    // registrarme
 
     #registrarme {
         display: flex;
@@ -728,7 +485,7 @@ header nav ul li a:hover {
         width: 15cm;
         height: 1cm;
         margin-top: 10px;
-        background-color: #e0e1dd;
+        background-color: $color-secundario;
         border-radius: 5px;
     }
 
@@ -753,6 +510,8 @@ header nav ul li a:hover {
         text-align: center;
         flex-direction: row;
     }
+
+    // ingresar
 
     #ingresar {
         display: flex;
@@ -779,7 +538,7 @@ header nav ul li a:hover {
         width: 10cm;
         height: 1cm;
         margin-top: 10px;
-        background-color: #e0e1dd;
+        background-color: $color-secundario;
         border-radius: 5px;
     }
 
@@ -795,6 +554,8 @@ header nav ul li a:hover {
 
     }
 
+    // footer
+
     #footer .container h2 {
         display: flex;
         justify-content: center;
@@ -807,7 +568,7 @@ header nav ul li a:hover {
     }
 
     #footer nav a:hover {
-        color: #415a77;
+        color: $color-primario;
     }
 
     .footer-nav {
@@ -820,7 +581,7 @@ header nav ul li a:hover {
 
 
     #footer .letras {
-        background-color: #e0e1dd;
+        background-color: $color-secundario;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -829,8 +590,10 @@ header nav ul li a:hover {
 
     #footer hr {
         height: 5px;
-        background-color: #415a77;
+        background-color: $color-primario;
     }
+
+    // productos
 
     #galeria img {
         width: 100%;

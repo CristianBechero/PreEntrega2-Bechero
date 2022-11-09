@@ -1,0 +1,42 @@
+#ingresar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../Assets/fotos/ingresar2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#ingresar .formulario-ingresar {
+    display: flex;
+    flex-direction: column;
+}
+
+#ingresar .formulario-ingresar input {
+    width: 10cm;
+    height: 1cm;
+    margin-top: 10px;
+    background-color: #e0e1dd;
+    border-radius: 5px;
+}
+
+
+.ingresar nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(124, 116, 116);
+    border-radius: 3px;
+}
+
+.ingresar nav a:hover {
+    color: white;
+
+}

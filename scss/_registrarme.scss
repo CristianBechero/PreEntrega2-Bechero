@@ -1,0 +1,61 @@
+#registrarme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("../Assets/fotos/ingresar.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#registrarme .registrarme {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+#registrarme .formulario-registrarme {
+    display: flex;
+    flex-direction: column;
+}
+
+#registrarme .formulario-registrarme input {
+    width: 10cm;
+    height: 1cm;
+    margin-top: 10px;
+    background-color: #e0e1dd;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+#registrarme .registrar button {
+    padding: 10px 90px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.registrar nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(124, 116, 116);
+    border-radius: 3px;
+}
+
+.registrar nav a:hover {
+    color: white;
+}
+
+#registrarme .registrarme {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
