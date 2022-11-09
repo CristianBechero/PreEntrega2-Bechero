@@ -372,7 +372,7 @@ header nav ul li a:hover {
   flex-direction: column;
   height: 100vh;
   color: white;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/fotos/productos.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/productos.jpg");
   background-size: cover;
   background-position: center center; }
 
@@ -611,6 +611,6 @@ header nav ul li a:hover {
     flex-direction: column;
     height: 100vh;
     color: white;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/fotos/productos.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/productos.jpg");
     background-size: cover;
     background-position: center center; } }
