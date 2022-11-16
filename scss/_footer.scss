@@ -1,3 +1,13 @@
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer .letras {
+    @include flex-column-center;
+}
+
 #footer a {
     text-decoration: none;
     color: blue;
@@ -22,9 +32,6 @@
 
 #footer .letras {
     background-color: #e0e1dd;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
 }
 

@@ -1,9 +1,16 @@
-#registrarme {
+@mixin flex-column-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+#registrarme {
+    @include flex-column-center;
+}
+
+#registrarme {
+    align-items: center;
+    text-align: center;
     height: 110vh;
     color: white;
     background-image: linear-gradient(0deg,

@@ -1,9 +1,16 @@
-#contacto {
+@mixin flex-column-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+#contacto {
+    @include flex-column-center;
+}
+
+#contacto {
+    align-items: center;
+    text-align: center;
     height: 100vh;
     color: white;
     background-image: linear-gradient(0deg,

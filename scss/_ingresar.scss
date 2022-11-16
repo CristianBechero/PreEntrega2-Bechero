@@ -1,9 +1,16 @@
-#ingresar {
+@mixin flex-column-center {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: column;
+    justify-content: center;
+}
+
+#ingresar {
+    @include flex-column-center;
+}
+
+#ingresar {
+    align-items: center;
+    text-align: center;
     height: 100vh;
     color: white;
     background-image: linear-gradient(0deg,
