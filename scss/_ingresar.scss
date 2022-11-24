@@ -24,16 +24,15 @@
 #ingresar .formulario-ingresar {
     display: flex;
     flex-direction: column;
-}
 
-#ingresar .formulario-ingresar input {
-    width: 10cm;
-    height: 1cm;
-    margin-top: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
+    input {
+        width: 10cm;
+        height: 1cm;
+        margin-top: 10px;
+        background-color: #e0e1dd;
+        border-radius: 5px;
+    }
 }
-
 
 .ingresar nav a {
     text-decoration: none;
@@ -41,9 +40,9 @@
     font-weight: bold;
     background-color: rgb(124, 116, 116);
     border-radius: 3px;
-}
 
-.ingresar nav a:hover {
-    color: white;
+    a:hover {
+        color: white;
 
+    }
 }

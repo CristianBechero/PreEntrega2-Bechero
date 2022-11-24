@@ -1,23 +1,18 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin: 0em;
-}
+  margin: 0em; }
 
 h1 {
-  font-size: 2.8em;
-}
+  font-size: 2.8em; }
 
 h2 {
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
 h3 {
-  font-size: 1.1em;
-}
+  font-size: 1.1em; }
 
 button {
   font-size: 1em;
@@ -27,62 +22,48 @@ button {
   box-shadow: 1px 1px 8px;
   color: white;
   background-color: #415a77;
-  border-color: white;
-}
-
-button:hover {
-  background-color: #1b263b;
-  outline: 2px solid white;
-  outline-offset: 3px;
-}
+  border-color: white; }
+  button button:hover {
+    background-color: #1b263b;
+    outline: 2px solid white;
+    outline-offset: 3px; }
 
 .container {
   max-width: 1400px;
   margin: auto;
-  display: block;
-}
+  display: block; }
 
 header {
-  background-color: #e0e1dd;
-}
-
-header .logo {
-  margin: 0;
-  padding: 35px 0px;
-  font-weight: bold;
-  color: #0d1b2a;
-  font-size: 1.6em;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
+  background-color: #e0e1dd; }
+  header .logo {
+    margin: 0;
+    padding: 35px 0px;
+    font-weight: bold;
+    color: #0d1b2a;
+    font-size: 1.6em;
+    text-decoration: none; }
 
 header .container {
   display: flex;
   flex-direction: center;
-  align-items: center;
-}
+  align-items: center; }
 
 header nav ul li {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
+  header nav ul li a:hover {
+    color: #415a77;
+    text-decoration: none; }
 
 header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: #0d1b2a;
-}
-
-header nav ul li a:hover {
-  color: #415a77;
-  text-decoration: none;
-}
+  color: #0d1b2a; }
+  header a a:hover {
+    text-decoration: none; }
 
 #hero {
   display: flex;
@@ -94,13 +75,17 @@ header nav ul li a:hover {
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/maquina.png");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 #entregas-inmediatas {
   text-align: center;
-  color: white;
-}
+  color: white; }
+  #entregas-inmediatas h2 {
+    margin-top: 0;
+    font-weight: bold;
+    color: black; }
+    #entregas-inmediatas h2 p {
+      display: none; }
 
 #entregas-inmediatas .cartass {
   background-size: cover;
@@ -110,111 +95,76 @@ header nav ul li a:hover {
   border-radius: 15px;
   align-items: center;
   box-shadow: 0 5px 10px #0d1b2a;
-  width: auto;
-}
-
-#entregas-inmediatas h2 {
-  margin-top: 0;
-  font-weight: bold;
-  color: black;
-}
-
-#entregas-inmediatas p {
-  display: none;
-}
+  width: auto; }
 
 .cartass:hover {
-  transform: scale(1.02);
-}
+  transform: scale(1.02); }
 
 .cartass:nth-child(1) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/cisterna.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/cisterna.png"); }
 
 .cartass:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/playo.png ");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/playo.png "); }
 
 .cartass:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/desmalezadora.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/desmalezadora.png"); }
 
 .cartass:nth-child(4) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/carrotaller.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/carrotaller.png"); }
 
 .cartas:hover {
-  transform: scale(1.02);
-}
+  transform: scale(1.02); }
 
 .cartas:nth-child(1) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/cosechadora.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/cosechadora.png"); }
 
 .cartas:nth-child(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/casilla.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/casilla.png"); }
 
 .cartas:nth-child(3) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/fertilizadora.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/fertilizadora.png"); }
 
 .cartas:nth-child(4) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/autoelevadores.png");
-}
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/autoelevadores.png"); }
 
 #lomas-vendido {
   background-color: #323232;
   color: white;
   text-align: center;
-  border-radius: 10px;
-}
-
-#lomas-vendido .cartas {
-  background-size: cover;
-  background-position: center center;
-  padding: 50px;
-  margin: 12px;
-  border-radius: 15px;
-  align-items: center;
-  box-shadow: 0 5px 10px #0d1b2a;
-}
-
-#lomas-vendido .container {
-  padding: 50px;
-}
-
-#lomas-vendido h2 {
-  margin-top: -40px;
-  font-weight: bold;
-}
-
-#lomas-vendido p {
-  display: none;
-}
+  border-radius: 10px; }
+  #lomas-vendido .cartas {
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0 5px 10px #0d1b2a; }
+  #lomas-vendido .container {
+    padding: 50px; }
+  #lomas-vendido h2 {
+    margin-top: -40px;
+    font-weight: bold; }
+  #lomas-vendido p {
+    display: none; }
 
 /* nuestra empresa */
 #nuestraempresa {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#nuestraempresa {
   align-items: center;
   text-align: center;
   height: 100vh;
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/contacto.png");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 #nuestra-empresa .container {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #nuestra-empresa .texto {
   margin-top: 80px;
@@ -227,134 +177,103 @@ header nav ul li a:hover {
   padding: 10px;
   border: 2px solid #415a77;
   border-radius: 5px;
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 #contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#contacto {
   align-items: center;
   text-align: center;
   height: 100vh;
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/contacto2.png");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
-#contacto .contacto {
+.contacto {
   justify-content: center;
   display: flex;
   text-align: center;
   flex-direction: column;
-  width: 100%;
-}
+  width: 100%; }
 
-#contacto .formulario-contacto {
+.formulario-contacto {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  align-items: center; }
 
-#contacto .comentario {
+.comentario {
   flex-direction: column;
   display: flex;
-  width: 100%;
-}
+  width: 100%; }
 
 .formulario-contacto input {
   height: 1cm;
   width: 7cm;
   margin: 10px;
   background-color: #e0e1dd;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .comentario input {
   height: 3cm;
   margin-top: 10px;
   background-color: #e0e1dd;
-  border-radius: 5px;
-}
+  border-radius: 5px; }
 
 .comentario button {
   padding: 7px;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 /* registrarme */
 #registrarme {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#registrarme {
   align-items: center;
   text-align: center;
   height: 110vh;
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/ingresar.png");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 #registrarme .registrarme {
   justify-content: center;
   display: flex;
   text-align: center;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
 #registrarme .formulario-registrarme {
   display: flex;
-  flex-direction: column;
-}
-
-#registrarme .formulario-registrarme input {
-  width: 10cm;
-  height: 1cm;
-  margin-top: 10px;
-  background-color: #e0e1dd;
-  border-radius: 5px;
-  justify-content: center;
-}
+  flex-direction: column; }
+  #registrarme .formulario-registrarme input {
+    width: 10cm;
+    height: 1cm;
+    margin-top: 10px;
+    background-color: #e0e1dd;
+    border-radius: 5px;
+    justify-content: center; }
 
 #registrarme .registrar button {
   padding: 10px 90px;
   margin-top: 10px;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .registrar nav a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
   background-color: #7c7474;
-  border-radius: 3px;
-}
-
-.registrar nav a:hover {
-  color: white;
-}
-
-#registrarme .registrarme {
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-}
+  border-radius: 3px; }
+  .registrar nav a a:hover {
+    color: white; }
 
 /* ingresar */
 #ingresar {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #ingresar {
   align-items: center;
@@ -363,95 +282,76 @@ header nav ul li a:hover {
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/ingresar2.png");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 #ingresar .formulario-ingresar {
   display: flex;
-  flex-direction: column;
-}
-
-#ingresar .formulario-ingresar input {
-  width: 10cm;
-  height: 1cm;
-  margin-top: 10px;
-  background-color: #e0e1dd;
-  border-radius: 5px;
-}
+  flex-direction: column; }
+  #ingresar .formulario-ingresar input {
+    width: 10cm;
+    height: 1cm;
+    margin-top: 10px;
+    background-color: #e0e1dd;
+    border-radius: 5px; }
 
 .ingresar nav a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
   background-color: #7c7474;
-  border-radius: 3px;
-}
-
-.ingresar nav a:hover {
-  color: white;
-}
+  border-radius: 3px; }
+  .ingresar nav a a:hover {
+    color: white; }
 
 /* footer */
 #footer .letras {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #footer a {
   text-decoration: none;
   color: blue;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 #footer nav a:hover {
-  color: #415a77;
-}
+  color: #415a77; }
 
 .footer-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-}
+  justify-content: space-around; }
 
 #footer .container h2 {
-  text-align: center;
-}
+  text-align: center; }
 
 #footer .letras {
   background-color: #e0e1dd;
-  text-align: center;
-}
+  text-align: center; }
 
 #footer hr {
   height: 5px;
-  background-color: #415a77;
-}
+  background-color: #415a77; }
 
 #productos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
+  justify-content: center; }
 
 #galeria img {
   width: 100%;
   height: 350px;
   border-radius: 5px;
   box-shadow: 2px 7px 12px #0d1b2a;
-  overflow: hidden;
-}
+  overflow: hidden; }
+  #galeria img img:hover {
+    transform: scale(1.03);
+    filter: opacity(0.8); }
 
 #galeria .col-lg-4 {
   margin: 0;
-  padding: 7px;
-}
-
-#galeria img:hover {
-  transform: scale(1.03);
-  filter: opacity(0.8);
-}
+  padding: 7px; }
 
 #productos {
   align-items: center;
@@ -460,37 +360,26 @@ header nav ul li a:hover {
   color: white;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/fotos/productos.jpg");
   background-size: cover;
-  background-position: center center;
-}
+  background-position: center center; }
 
 /* RESPONSIVO */
 @media (min-width: 720px) {
   header {
     position: fixed;
     width: 100%;
-    z-index: 10;
-  }
-
+    z-index: 10; }
   header .container {
     flex-direction: row;
-    justify-content: space-between;
-  }
-
-  header nav ul li a:hover {
-    color: #415a77;
-  }
-
+    justify-content: space-between; }
   header nav ul li {
     flex-direction: row;
     padding-bottom: 0;
-    padding-right: 25px;
-  }
-
+    padding-right: 25px; }
+    header nav ul li a:hover {
+      color: #415a77; }
   .cartass:hover {
     transform: scale(1.02);
-    z-index: 1;
-  }
-
+    z-index: 1; }
   #entregas-inmediatas .cartass {
     background-size: cover;
     background-position: center center;
@@ -498,29 +387,19 @@ header nav ul li a:hover {
     margin: 12px;
     border-radius: 15px;
     align-items: center;
-    box-shadow: 0 5px 10px #0d1b2a;
-  }
-
+    box-shadow: 0 5px 10px #0d1b2a; }
   #entregas-inmediatas .programas {
     display: flex;
-    justify-content: center;
-  }
-
+    justify-content: center; }
   #lomas-vendido .programas {
     display: flex;
-    justify-content: center;
-  }
-
+    justify-content: center; }
   #entregas-inmediatas p {
     display: block;
-    margin-bottom: 30px;
-  }
-
+    margin-bottom: 30px; }
   .cartas:hover {
     transform: scale(1.02);
-    z-index: 1;
-  }
-
+    z-index: 1; }
   #lomas-vendido .cartas {
     background-size: cover;
     background-position: center center;
@@ -528,22 +407,14 @@ header nav ul li a:hover {
     margin: 12px;
     border-radius: 15px;
     align-items: center;
-    box-shadow: 0 5px 10px #0d1b2a;
-  }
-
+    box-shadow: 0 5px 10px #0d1b2a; }
   #lomas-vendido p {
     display: block;
-    margin-bottom: 30px;
-  }
-
+    margin-bottom: 30px; }
   #lomas-vendido h3 {
-    margin-top: -20px;
-  }
-
+    margin-top: -20px; }
   #entregas-inmediatas h3 {
-    margin-top: -20px;
-  }
-
+    margin-top: -20px; }
   #nuestraempresa {
     display: flex;
     align-items: center;
@@ -554,13 +425,9 @@ header nav ul li a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/contacto.png");
     background-size: cover;
-    background-position: center center;
-  }
-
+    background-position: center center; }
   #nuestra-empresa .container {
-    display: flex;
-  }
-
+    display: flex; }
   #nuestra-empresa .texto {
     margin-top: 80px;
     text-align: initial;
@@ -572,9 +439,7 @@ header nav ul li a:hover {
     padding: 10px;
     border: 2px solid #415a77;
     border-radius: 5px;
-    margin-bottom: 25px;
-  }
-
+    margin-bottom: 25px; }
   #nuestra-empresa .imgnuestraempresa {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/nuestraempresa.png");
     background-size: cover;
@@ -584,9 +449,7 @@ header nav ul li a:hover {
     margin-top: 100px;
     margin-left: 50px;
     margin-bottom: 30px;
-    border-radius: 10px;
-  }
-
+    border-radius: 10px; }
   #contacto {
     display: flex;
     align-items: center;
@@ -597,48 +460,34 @@ header nav ul li a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/contacto2.png");
     background-size: cover;
-    background-position: center center;
-  }
-
+    background-position: center center; }
   #contacto .contacto {
     justify-content: space-evenly;
     display: flex;
     text-align: center;
     flex-direction: row;
-    width: 50%;
-  }
-
+    width: 50%; }
   #contacto .formulario-contacto {
     display: flex;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   #contacto .comentario {
     flex-direction: column;
-    display: flex;
-  }
-
+    display: flex; }
   .formulario-contacto input {
     height: 1cm;
     width: 7cm;
     margin: 10px;
     background-color: #e0e1dd;
-    border-radius: 5px;
-  }
-
+    border-radius: 5px; }
   .comentario input {
     width: 20cm;
     height: 3cm;
     margin-top: 10px;
     background-color: #e0e1dd;
-    border-radius: 5px;
-  }
-
+    border-radius: 5px; }
   .comentario button {
     padding: 7px;
-    margin-top: 5px;
-  }
-
+    margin-top: 5px; }
   #registrarme {
     display: flex;
     align-items: center;
@@ -649,51 +498,35 @@ header nav ul li a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/ingresar.png");
     background-size: cover;
-    background-position: center center;
-  }
-
+    background-position: center center; }
   #registrarme .registrarme {
     justify-content: center;
     display: flex;
     text-align: center;
-    flex-direction: row;
-  }
-
+    flex-direction: row; }
   #registrarme .formulario-registrarme {
     display: flex;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   #registrarme .formulario-registrarme input {
     width: 15cm;
     height: 1cm;
     margin-top: 10px;
     background-color: #e0e1dd;
-    border-radius: 5px;
-  }
-
+    border-radius: 5px; }
   #registrarme .registrar button {
     padding: 10px 250px;
-    margin-top: 10px;
-  }
-
+    margin-top: 10px; }
   .registrar nav a {
     text-decoration: none;
     color: blue;
-    font-weight: bold;
-  }
-
-  .registrar nav a:hover {
-    color: white;
-  }
-
+    font-weight: bold; }
+    .registrar nav a a:hover {
+      color: white; }
   #registrarme .registrarme {
     justify-content: center;
     display: flex;
     text-align: center;
-    flex-direction: row;
-  }
-
+    flex-direction: row; }
   #ingresar {
     display: flex;
     align-items: center;
@@ -704,86 +537,58 @@ header nav ul li a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/fotos/ingresar2.png");
     background-size: cover;
-    background-position: center center;
-  }
-
+    background-position: center center; }
   #ingresar .formulario-ingresar {
     display: flex;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   #ingresar .formulario-ingresar input {
     width: 10cm;
     height: 1cm;
     margin-top: 10px;
     background-color: #e0e1dd;
-    border-radius: 5px;
-  }
-
+    border-radius: 5px; }
   .ingresar nav a {
     text-decoration: none;
     color: blue;
-    font-weight: bold;
-  }
-
+    font-weight: bold; }
   .ingresar nav a:hover {
-    color: white;
-  }
-
+    color: white; }
   #footer .container h2 {
     display: flex;
-    justify-content: center;
-  }
-
+    justify-content: center; }
   #footer a {
     text-decoration: none;
     color: blue;
-    font-weight: bold;
-  }
-
+    font-weight: bold; }
   #footer nav a:hover {
-    color: #415a77;
-  }
-
+    color: #415a77; }
   .footer-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-left: 100px;
-  }
-
+    padding-left: 100px; }
   #footer .letras {
     background-color: #e0e1dd;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-  }
-
+    text-align: center; }
   #footer hr {
     height: 5px;
-    background-color: #415a77;
-  }
-
+    background-color: #415a77; }
   #galeria img {
     width: 100%;
     height: 350px;
     border-radius: 5px;
     box-shadow: 2px 7px 12px #0d1b2a;
-    overflow: hidden;
-  }
-
+    overflow: hidden; }
   #galeria .col-lg-4 {
     margin: 0;
-    padding: 7px;
-  }
-
+    padding: 7px; }
   #galeria img:hover {
     transform: scale(1.03);
-    filter: opacity(0.8);
-  }
-
+    filter: opacity(0.8); }
   #productos {
     display: flex;
     align-items: center;
@@ -794,6 +599,4 @@ header nav ul li a:hover {
     color: white;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/fotos/productos.jpg");
     background-size: cover;
-    background-position: center center;
-  }
-}
+    background-position: center center; } }

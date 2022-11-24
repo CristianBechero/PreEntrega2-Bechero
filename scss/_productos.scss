@@ -14,16 +14,16 @@
     border-radius: 5px;
     box-shadow: 2px 7px 12px #0d1b2a;
     overflow: hidden;
+
+    img:hover {
+        transform: scale(1.03);
+        filter: opacity(.8);
+    }
 }
 
 #galeria .col-lg-4 {
     margin: 0;
     padding: 7px;
-}
-
-#galeria img:hover {
-    transform: scale(1.03);
-    filter: opacity(.8);
 }
 
 #productos {

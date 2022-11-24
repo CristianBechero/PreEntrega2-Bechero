@@ -30,12 +30,12 @@ button {
     color: white;
     background-color: $color-primario;
     border-color: white;
-}
 
-button:hover {
-    background-color: #1b263b;
-    outline: 2px solid white;
-    outline-offset: 3px;
+    button:hover {
+        background-color: #1b263b;
+        outline: 2px solid white;
+        outline-offset: 3px;
+    }
 }
 
 .container {
@@ -47,19 +47,15 @@ button:hover {
 
 header {
     background-color: $color-secundario;
-}
 
-header .logo {
-    margin: 0;
-    padding: 35px 0px;
-    font-weight: bold;
-    color: #0d1b2a;
-    font-size: 1.6em;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
+    .logo {
+        margin: 0;
+        padding: 35px 0px;
+        font-weight: bold;
+        color: #0d1b2a;
+        font-size: 1.6em;
+        text-decoration: none;
+    }
 }
 
 header .container {
@@ -73,6 +69,12 @@ header nav ul li {
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
+
+    a:hover {
+        color: $color-primario;
+        text-decoration: none;
+
+    }
 }
 
 header a {
@@ -81,11 +83,9 @@ header a {
     font-weight: bold;
     color: #0d1b2a;
 
-}
-
-header nav ul li a:hover {
-    color: $color-primario;
-    text-decoration: none;
+    a:hover {
+        text-decoration: none;
+    }
 
 }
 
@@ -110,6 +110,16 @@ header nav ul li a:hover {
 #entregas-inmediatas {
     text-align: center;
     color: white;
+
+    h2 {
+        margin-top: 0;
+        font-weight: bold;
+        color: black;
+
+        p {
+            display: none;
+        }
+    }
 }
 
 #entregas-inmediatas .cartass {
@@ -121,16 +131,6 @@ header nav ul li a:hover {
     align-items: center;
     box-shadow: 0 5px 10px #0d1b2a;
     width: auto;
-}
-
-#entregas-inmediatas h2 {
-    margin-top: 0;
-    font-weight: bold;
-    color: black;
-}
-
-#entregas-inmediatas p {
-    display: none;
 }
 
 .cartass:hover {
@@ -211,30 +211,30 @@ header nav ul li a:hover {
     color: white;
     text-align: center;
     border-radius: 10px;
-}
 
-#lomas-vendido .cartas {
-    background-size: cover;
-    background-position: center center;
-    padding: 50px;
-    margin: 12px;
-    border-radius: 15px;
-    align-items: center;
-    box-shadow: 0 5px 10px #0d1b2a;
+    .cartas {
+        background-size: cover;
+        background-position: center center;
+        padding: 50px;
+        margin: 12px;
+        border-radius: 15px;
+        align-items: center;
+        box-shadow: 0 5px 10px #0d1b2a;
 
-}
+    }
 
-#lomas-vendido .container {
-    padding: 50px;
-}
+    .container {
+        padding: 50px;
+    }
 
-#lomas-vendido h2 {
-    margin-top: -40px;
-    font-weight: bold;
-}
+    h2 {
+        margin-top: -40px;
+        font-weight: bold;
+    }
 
-#lomas-vendido p {
-    display: none;
+    p {
+        display: none;
+    }
 }
 
 /* nuestra empresa */
@@ -274,14 +274,14 @@ header nav ul li a:hover {
         justify-content: space-between;
     }
 
-    header nav ul li a:hover {
-        color: $color-primario;
-    }
-
     header nav ul li {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 25px;
+
+        a:hover {
+            color: $color-primario;
+        }
 
     }
 
@@ -498,10 +498,10 @@ header nav ul li a:hover {
         text-decoration: none;
         color: blue;
         font-weight: bold;
-    }
 
-    .registrar nav a:hover {
-        color: white;
+        a:hover {
+            color: white;
+        }
     }
 
     #registrarme .registrarme {

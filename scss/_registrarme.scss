@@ -6,9 +6,6 @@
 
 #registrarme {
     @include flex-column-center;
-}
-
-#registrarme {
     align-items: center;
     text-align: center;
     height: 110vh;
@@ -31,15 +28,15 @@
 #registrarme .formulario-registrarme {
     display: flex;
     flex-direction: column;
-}
 
-#registrarme .formulario-registrarme input {
-    width: 10cm;
-    height: 1cm;
-    margin-top: 10px;
-    background-color: #e0e1dd;
-    border-radius: 5px;
-    justify-content: center;
+    input {
+        width: 10cm;
+        height: 1cm;
+        margin-top: 10px;
+        background-color: #e0e1dd;
+        border-radius: 5px;
+        justify-content: center;
+    }
 }
 
 #registrarme .registrar button {
@@ -54,15 +51,8 @@
     font-weight: bold;
     background-color: rgb(124, 116, 116);
     border-radius: 3px;
-}
 
-.registrar nav a:hover {
-    color: white;
-}
-
-#registrarme .registrarme {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    flex-direction: row;
+    a:hover {
+        color: white;
+    }
 }
