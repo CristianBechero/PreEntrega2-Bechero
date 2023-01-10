@@ -48,7 +48,7 @@ while (cantidadCasillas < 0) {
 let precioCasilla = 15000
 let totalCasillas = precioCasilla * cantidadCasillas
 console.log("El precio total de casillas es de" + " " +  totalCasillas + "" + "usd")
-
+//cantidad de cisternas que quiere el cliente
 let cantidadCisternas = parseInt(prompt("Ingrese la cantidad de Cisternas que desea comprar"))
 console.log(cantidadCisternas)
 while (cantidadCisternas < 0) {
@@ -59,10 +59,10 @@ while (cantidadCisternas < 0) {
 let precioCisterna = 18000
 let totalCisternas = precioCisterna * cantidadCisternas;
 console.log("El precio total de Cisternas es de" + " " +  totalCisternas + "" + "usd" )
-
+//sumando todos los productos pedidos por el cliente
 let total = (totalSembradoras + totalTractores + totalCasillas + totalCisternas);
 console.log("El precio total a pagar por todos los Implementos es de" + " " + " " + total + " " + "usd")
-
+//mensaje de devolucion por la compra
 if (total >= 100000) {
     console.log("Tu compra supera los 100000 usd, por lo tanto el flete cuenta por cuenta nuestra")
     alert("Tu compra supera los 100000 usd, por tanto el flete cuenta por cuenta nuestra")
